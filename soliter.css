@@ -1,0 +1,24 @@
+.map {
+	position: relative;
+}
+.field {
+	display: block;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border: 1px dotted black;
+}
+.place:after {
+	border: 20px solid gray;
+	border-radius: 50%;
+	content: '';
+	display: block;
+	width: 0px;
+	height: 0px;
+	position: relative;
+	left: 5px;
+	top: 5px;
+}
+.selected:after {
+	border-color: #800080;
+}
